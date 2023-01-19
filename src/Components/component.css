@@ -1,0 +1,101 @@
+#page-wrap { width: 100%; margin: 60px auto; }
+#page-wrap > div { margin: 0 0 50px 0; min-width: 500px; width: 100%; }
+
+.main:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.main { display: inline-block; }
+
+@media only screen and (max-width: 800px), only screen and (max-device-width: 480px) {
+div#main-div {
+    width: 100%;
+    margin: 0px;
+    height : 1600px;
+}
+}
+#main-div {
+            position: relative; 
+            background: rgb(230, 230, 230); 
+            z-index: 1; 
+            margin: 0 20% ;
+            width: 60%; 
+            border : 1px groove rgb(92, 91, 91);
+        }
+        .container{
+            margin : 2px;
+  border-top : 1px groove rgb(92, 91, 91);
+        }
+        #main-div .comp { 
+            position: relative; 
+            padding: 1%; 
+            float: left; 
+            text-align: justify;
+            overflow-x: hidden;
+            /* font-family: 'Stylish', sans-serif; */
+            font-family: 'Song Myung', serif;
+            /* font-family: 'Sunflower', sans-serif; */
+            /* font-family: 'IM Fell English SC'; */
+            /* font-family: 'Franklin Gothic'; */
+            font-size: 8px;
+            /* text-transform: capitalize; */
+            /* font-family: 'IM Fell Double Pica SC', serif; */
+            
+        }
+        #main-div .comp:nth-child(1) { left: 28%; width: 11%; }
+        #main-div .comp:nth-child(2) { left: -12.8%;  width: 27%;}
+        #main-div .comp:nth-child(3) { left: -2%;  width: 14%;}
+        #main-div .comp:nth-child(4) { left: -3%;  width: 9%;}
+        #main-div .comp:nth-child(5) { left: -4%;  width: 29%;}
+
+        #main-div .innercomp:nth-child(1) { left: -30%; width: 45%; }
+        #main-div .innercomp:nth-child(2) { left: 0;  width: 49%;}
+
+        .innercomp{
+          margin: 3px;
+          display: inline-grid;
+        }
+
+
+
+.cols_ex { -webkit-columns: 2 30px; -moz-columns: 2 30px; columns: 2 30px; margin : 0 ; overflow-x: hidden; }
+
+.cols_heading_ex {     -webkit-column-span: all;     column-span: all; } 
+
+.innerC{
+  margin-bottom : 6px ;
+}
+
+#main-div {
+  height: 1600px;
+  overflow-y: hidden;
+}
+
+
+.upperContainer{
+  text-align: center;
+  /* background : pink; */
+font-family: 'IM Fell English SC', serif;
+font-size: 70px;
+}
+
+.details{
+  text-align: center;
+  /* background : pink; */
+  padding: 5px;
+  font-family: 'Song Myung', serif;
+  border-bottom : 1px groove rgb(92, 91, 91);
+  border-top : 1px groove rgb(92, 91, 91);
+}
+
+.image img{
+  padding-top: 10px;
+  height : 74px;
+  margin-bottom: -14px;
+  margin-right: -10px;
+  margin-left: -11px;
+}
