@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Taaza-Khabar/static/css/main.f8c71d40.chunk.css",
+    "main.js": "/Taaza-Khabar/static/js/main.5968fe0d.chunk.js",
+    "main.js.map": "/Taaza-Khabar/static/js/main.5968fe0d.chunk.js.map",
+    "runtime-main.js": "/Taaza-Khabar/static/js/runtime-main.28f32a86.js",
+    "runtime-main.js.map": "/Taaza-Khabar/static/js/runtime-main.28f32a86.js.map",
+    "static/js/2.7b540a3f.chunk.js": "/Taaza-Khabar/static/js/2.7b540a3f.chunk.js",
+    "static/js/2.7b540a3f.chunk.js.map": "/Taaza-Khabar/static/js/2.7b540a3f.chunk.js.map",
+    "index.html": "/Taaza-Khabar/index.html",
+    "precache-manifest.c2f967daa53e0c790ae0a05d9065e168.js": "/Taaza-Khabar/precache-manifest.c2f967daa53e0c790ae0a05d9065e168.js",
+    "service-worker.js": "/Taaza-Khabar/service-worker.js",
+    "static/css/main.f8c71d40.chunk.css.map": "/Taaza-Khabar/static/css/main.f8c71d40.chunk.css.map",
+    "static/js/2.7b540a3f.chunk.js.LICENSE.txt": "/Taaza-Khabar/static/js/2.7b540a3f.chunk.js.LICENSE.txt",
+    "static/media/sun-logo.png": "/Taaza-Khabar/static/media/sun-logo.19ec54d6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28f32a86.js",
+    "static/js/2.7b540a3f.chunk.js",
+    "static/css/main.f8c71d40.chunk.css",
+    "static/js/main.5968fe0d.chunk.js"
+  ]
+}
